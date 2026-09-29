@@ -1,31 +1,463 @@
 [ {
-  "title" : "Away vs Wr. Neustadt 3 00:00",
-  "start" : "2026-04-12"
+  "title" : "H1  Auswärts vs Aschbach 17:00",
+  "start" : "2026-10-03"
 }, {
-  "title" : "Away vs Union Raiffeisen Waldviertel 3 00:00",
-  "start" : "2026-04-11"
+  "title" : "H1  Heim vs Waldviertel 3 19:00",
+  "start" : "2026-10-24"
 }, {
-  "title" : "Home vs SG Aschbach/VCA 00:00",
-  "start" : "2026-03-14"
+  "title" : "H1  Auswärts vs Volleyteam NÖ 19:30",
+  "start" : "2026-11-11"
 }, {
-  "title" : "Away vs UNIONvolleys Bisamberg Hollabrunn 2 00:00",
-  "start" : "2026-02-21"
+  "title" : "H1  Auswärts vs SG Purkersdorf/Tulln 18:00",
+  "start" : "2026-11-21"
 }, {
-  "title" : "Away vs Wr. Neustadt 2 00:00",
-  "start" : "2026-01-24"
+  "title" : "H1  Heim vs Wr. Neustadt 2 19:00",
+  "start" : "2026-11-28"
 }, {
-  "title" : "Home vs SPORTUNION z+p St. Pölten 2 00:00",
-  "start" : "2025-12-20"
+  "title" : "H1  Heim vs UNIONvolleys Bisamberg Hollabrunn 2 16:30",
+  "start" : "2026-12-05"
 }, {
-  "title" : "Home vs Wr. Neustadt 3 00:00",
-  "start" : "2025-12-06"
+  "title" : "H1  Auswärts vs Wölbling 19:00",
+  "start" : "2026-12-19"
 }, {
-  "title" : "Away vs SG Aschbach/VCA 00:00",
-  "start" : "2025-11-29"
+  "title" : "H1  Auswärts vs Waldviertel 3 11:00",
+  "start" : "2027-01-30"
 }, {
-  "title" : "Away vs Volleyteam NÖ 00:00",
-  "start" : "2025-11-12"
+  "title" : "H1  Auswärts vs UVC Tulln 18:00",
+  "start" : "2027-02-13"
 }, {
-  "title" : "Home vs Union Raiffeisen Waldviertel 3 00:00",
-  "start" : "2025-10-18"
+  "title" : "H1  Heim vs Aschbach 16:30",
+  "start" : "2027-02-27"
+}, {
+  "title" : "H1  Auswärts vs UNIONvolleys Bisamberg Hollabrunn 2 11:30",
+  "start" : "2027-03-06"
+}, {
+  "title" : "H1  Heim vs SG Purkersdorf/Tulln 18:00",
+  "start" : "2027-03-20"
+}, {
+  "title" : "H1  Auswärts vs Wr. Neustadt 2 16:00",
+  "start" : "2027-04-03"
+}, {
+  "title" : "H1  Heim vs Wölbling 18:00",
+  "start" : "2027-04-10"
+}, {
+  "title" : "H2  Heim vs UVC Tulln 2 11:00",
+  "start" : "2026-10-03"
+}, {
+  "title" : "H2  Heim vs Sportunion Wulzeshofen 11:00",
+  "start" : "2026-10-03"
+}, {
+  "title" : "H2  Heim vs UNIONvolleys Bisamberg Hollabrunn 3 11:00",
+  "start" : "2026-10-17"
+}, {
+  "title" : "H2  Auswärts vs Wr. Neustadt 4 11:00",
+  "start" : "2026-10-17"
+}, {
+  "title" : "H2  Heim vs Wr. Neustadt 5 11:00",
+  "start" : "2026-11-07"
+}, {
+  "title" : "H2  Heim vs Mistelbach 11:00",
+  "start" : "2026-11-07"
+}, {
+  "title" : "H2  Heim vs Wr. Neustadt 3 11:00",
+  "start" : "2026-11-28"
+}, {
+  "title" : "H2  Auswärts vs Bad Vöslau USV 11:00",
+  "start" : "2026-11-28"
+}, {
+  "title" : "H2  Heim vs Bad Vöslau USV 11:00",
+  "start" : "2026-12-12"
+}, {
+  "title" : "H2  Auswärts vs Mistelbach 11:00",
+  "start" : "2026-12-12"
+}, {
+  "title" : "H2  Auswärts vs UNIONvolleys Bisamberg Hollabrunn 3 11:00",
+  "start" : "2027-01-16"
+}, {
+  "title" : "H2  Auswärts vs Sportunion Wulzeshofen 11:00",
+  "start" : "2027-01-16"
+}, {
+  "title" : "H2  Auswärts vs Wr. Neustadt 5 11:00",
+  "start" : "2027-02-13"
+}, {
+  "title" : "H2 Heim vs Wr. Neustadt 3 11:00",
+  "start" : "2027-02-13"
+}, {
+  "title" : "H2 Heim vs Wr. Neustadt 4 11:00",
+  "start" : "2027-02-27"
+}, {
+  "title" : "H2 Auswärts vs UVC Tulln 2 11:00",
+  "start" : "2027-02-27"
+}, {
+  "title" : "U20M Auswärts vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2026-10-04"
+}, {
+  "title" : "U20M Heim vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2026-10-11"
+}, {
+  "title" : "U20M Heim vs Krems 10:00",
+  "start" : "2026-10-11"
+}, {
+  "title" : "U20M Auswärts vs Wr. Neustadt 2 10:00",
+  "start" : "2026-11-08"
+}, {
+  "title" : "U20M Auswärts vs Bad Vöslau USV 10:00",
+  "start" : "2026-11-08"
+}, {
+  "title" : "U20M Heim vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2026-11-29"
+}, {
+  "title" : "U20M Heim vs Wr. Neustadt 2 10:00",
+  "start" : "2026-11-29"
+}, {
+  "title" : "U20M Auswärts vs UNIONvolleys Bisamberg Hollabrunn 10:00",
+  "start" : "2026-12-13"
+}, {
+  "title" : "U20M Auswärts vs Krems 10:00",
+  "start" : "2026-12-13"
+}, {
+  "title" : "U20M Heim vs Wr. Neustadt 1 10:00",
+  "start" : "2027-01-10"
+}, {
+  "title" : "U20M Auswärts vs Bad Vöslau USV 10:00",
+  "start" : "2027-01-10"
+}, {
+  "title" : "U20M Auswärts vs UNIONvolleys Bisamberg Hollabrunn 10:00",
+  "start" : "2027-01-24"
+}, {
+  "title" : "U20M Auswärts vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2027-01-24"
+}, {
+  "title" : "U20M Auswärts vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2027-02-21"
+}, {
+  "title" : "U20M Auswärts vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2027-02-21"
+}, {
+  "title" : "U20M Auswärts vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2027-03-14"
+}, {
+  "title" : "U20M Heim vs Wr. Neustadt 1 10:00",
+  "start" : "2027-03-14"
+}, {
+  "title" : "U18M Auswärts vs UNIONvolleys Bisamberg Hollabrunn 10:00",
+  "start" : "2026-10-18"
+}, {
+  "title" : "U18M Auswärts vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2026-10-18"
+}, {
+  "title" : "U18M Auswärts vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2027-01-31"
+}, {
+  "title" : "U18M Auswärts vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2027-01-31"
+}, {
+  "title" : "U18M Heim vs Wr. Neustadt 1 10:00",
+  "start" : "2027-02-07"
+}, {
+  "title" : "U18M Heim vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2027-02-07"
+}, {
+  "title" : "U18M Auswärts vs Wr. Neustadt 1 10:00",
+  "start" : "2027-02-28"
+}, {
+  "title" : "U18M Heim vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2027-02-28"
+}, {
+  "title" : "U18M Heim vs VCA Amstetten NÖ 10:00",
+  "start" : "2027-03-07"
+}, {
+  "title" : "U18M Heim vs Wr. Neustadt 2 10:00",
+  "start" : "2027-03-07"
+}, {
+  "title" : "U18M Heim vs Wr. Neustadt 2 10:00",
+  "start" : "2027-03-21"
+}, {
+  "title" : "U18M Heim vs VCA Amstetten NÖ 10:00",
+  "start" : "2027-03-21"
+}, {
+  "title" : "U18M Auswärts vs UNIONvolleys Bisamberg Hollabrunn 10:00",
+  "start" : "2027-03-28"
+}, {
+  "title" : "U18M Heim vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2027-03-28"
+}, {
+  "title" : "D1 Auswärts vs HOT SHOTS - Volleyball UNION Böheimkirchen 1 15:00",
+  "start" : "2026-10-03"
+}, {
+  "title" : "D1 Auswärts vs Waidhofen/Y 18:00",
+  "start" : "2026-10-17"
+}, {
+  "title" : "D1 Heim vs Ybbs 16:30",
+  "start" : "2026-10-24"
+}, {
+  "title" : "D1 Heim vs ASKÖ Volksbank Purgstall 2 18:00",
+  "start" : "2026-11-21"
+}, {
+  "title" : "D1 Heim vs Wr. Neustadt 1 16:30",
+  "start" : "2026-11-28"
+}, {
+  "title" : "D1 Heim vs UNIONvolleys Bisamberg Hollabrunn 3 19:00",
+  "start" : "2026-12-05"
+}, {
+  "title" : "D1 Auswärts vs St. Pölten 2 19:00",
+  "start" : "2026-12-19"
+}, {
+  "title" : "D1 Auswärts vs Volleyteam NÖ 19:30",
+  "start" : "2027-01-13"
+}, {
+  "title" : "D1 Heim vs Waidhofen/Y 18:00",
+  "start" : "2027-01-16"
+}, {
+  "title" : "D1 Auswärts vs Ybbs 16:00",
+  "start" : "2027-01-30"
+}, {
+  "title" : "D1 Auswärts vs Ternitz 18:00",
+  "start" : "2027-02-13"
+}, {
+  "title" : "D1 Heim vs HOT SHOTS - Volleyball UNION Böheimkirchen 1 19:00",
+  "start" : "2027-02-27"
+}, {
+  "title" : "D1 Heim vs St. Pölten 2 19:00",
+  "start" : "2027-03-06"
+}, {
+  "title" : "D1 Auswärts vs UNIONvolleys Bisamberg Hollabrunn 3 11:30",
+  "start" : "2027-03-20"
+}, {
+  "title" : "D1 Auswärts vs Wr. Neustadt 1 12:30",
+  "start" : "2027-04-03"
+}, {
+  "title" : "D1 Auswärts vs ASKÖ Volksbank Purgstall 2 15:00",
+  "start" : "2027-04-10"
+}, {
+  "title" : "D2 Auswärts vs UVC RAIBA Waidhofen an der Ybbs 2 11:00",
+  "start" : "2026-10-10"
+}, {
+  "title" : "D2 Auswärts vs SportZeit Stindl 11:00",
+  "start" : "2026-10-10"
+}, {
+  "title" : "D2 Heim vs UNIONvolleys Bisamberg Hollabrunn 4 11:00",
+  "start" : "2026-11-07"
+}, {
+  "title" : "D2 Heim vs UVC Tulln 11:00",
+  "start" : "2026-11-07"
+}, {
+  "title" : "D2 Auswärts vs SG Aschbach/Amstetten 11:00",
+  "start" : "2026-11-28"
+}, {
+  "title" : "D2 Heim vs SPU HOGE Bau Raiffeisen Nibelungengau 11:00",
+  "start" : "2026-11-28"
+}, {
+  "title" : "D2 Heim vs HOT SHOTS - Volleyball UNION Böheimkirchen 2 11:00",
+  "start" : "2026-12-12"
+}, {
+  "title" : "D2 Heim vs Ternitz 2 11:00",
+  "start" : "2026-12-12"
+}, {
+  "title" : "D2 Auswärts vs HOT SHOTS - Volleyball UNION Böheimkirchen 2 11:00",
+  "start" : "2027-01-16"
+}, {
+  "title" : "D2 Auswärts vs SportZeit Stindl 11:00",
+  "start" : "2027-01-16"
+}, {
+  "title" : "D2 Auswärts vs SPU HOGE Bau Raiffeisen Nibelungengau 11:00",
+  "start" : "2027-02-20"
+}, {
+  "title" : "D2 Heim vs UNIONvolleys Bisamberg Hollabrunn 4 11:00",
+  "start" : "2027-02-20"
+}, {
+  "title" : "D2 Heim vs SG Aschbach/Amstetten 11:00",
+  "start" : "2027-03-06"
+}, {
+  "title" : "D2 Heim vs UVC RAIBA Waidhofen an der Ybbs 2 11:00",
+  "start" : "2027-03-06"
+}, {
+  "title" : "D2 Auswärts vs Ternitz 2 11:00",
+  "start" : "2027-04-03"
+}, {
+  "title" : "D2 Auswärts vs UVC Tulln 11:00",
+  "start" : "2027-04-03"
+}, {
+  "title" : "D3 Auswärts vs UNIONvolleys Bisamberg Hollabrunn 5 11:00",
+  "start" : "2026-10-10"
+}, {
+  "title" : "D3 Auswärts vs Brunn an der Wild 11:00",
+  "start" : "2026-11-21"
+}, {
+  "title" : "D3 Heim vs VOLLEYCATS Traiskirchen 11:00",
+  "start" : "2026-11-21"
+}, {
+  "title" : "D3 Auswärts vs Brunn an der Wild 11:00",
+  "start" : "2026-12-05"
+}, {
+  "title" : "D3 Auswärts vs Wulzeshofen 11:00",
+  "start" : "2026-12-05"
+}, {
+  "title" : "D3 Heim vs UNIONvolleys Bisamberg Hollabrunn 5 11:00",
+  "start" : "2027-01-23"
+}, {
+  "title" : "D3 Heim vs Wulzeshofen 11:00",
+  "start" : "2027-02-27"
+}, {
+  "title" : "D3 Heim vs VOLLEYCATS Traiskirchen 11:00",
+  "start" : "2027-02-27"
+}, {
+  "title" : "U20W Auswärts vs UNIONvolleys Bisamberg Hollabrunn ÖMS-Quali 10:00",
+  "start" : "2026-10-04"
+}, {
+  "title" : "U20W Heim vs Wr. Neustadt 10:00",
+  "start" : "2026-10-11"
+}, {
+  "title" : "U20W Heim vs UNIONvolleys Bisamberg Hollabrunn 2 U20w 10:00",
+  "start" : "2026-10-11"
+}, {
+  "title" : "U20W Heim vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2026-11-01"
+}, {
+  "title" : "U20W Heim vs UNIONvolleys Bisamberg Hollabrunn 1 - U20w 10:00",
+  "start" : "2026-11-01"
+}, {
+  "title" : "U20W Auswärts vs UNIONvolleys Bisamberg Hollabrunn 2 U20w 10:00",
+  "start" : "2026-12-06"
+}, {
+  "title" : "U20W Auswärts vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2026-12-06"
+}, {
+  "title" : "U20W Auswärts vs UNIONvolleys Bisamberg Hollabrunn 1 - U20w 10:00",
+  "start" : "2027-01-10"
+}, {
+  "title" : "U20W Auswärts vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2027-01-10"
+}, {
+  "title" : "U20W Auswärts vs Wr. Neustadt 10:00",
+  "start" : "2027-02-14"
+}, {
+  "title" : "U20W Heim vs ASKÖ Volksbank Purgstall 10:00",
+  "start" : "2027-02-14"
+}, {
+  "title" : "U20W Auswärts vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2027-02-21"
+}, {
+  "title" : "U20W Auswärts vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2027-02-21"
+}, {
+  "title" : "U20W Auswärts vs ASKÖ Volksbank Purgstall 10:00",
+  "start" : "2027-03-14"
+}, {
+  "title" : "U20W Auswärts vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2027-03-14"
+}, {
+  "title" : "U18W Heim vs Wr. Neustadt 3 10:00",
+  "start" : "2026-10-18"
+}, {
+  "title" : "U18W Auswärts vs UNIONvolleys Bisamberg Hollabrunn LK2 10:00",
+  "start" : "2026-10-18"
+}, {
+  "title" : "U18W Auswärts vs UVC Tulln 10:00",
+  "start" : "2026-11-22"
+}, {
+  "title" : "U18W Auswärts vs Bad Vöslau JBV 10:00",
+  "start" : "2026-11-22"
+}, {
+  "title" : "U18W Heim vs Südstadt 2 10:00",
+  "start" : "2026-11-22"
+}, {
+  "title" : "U18W Auswärts vs Bad Vöslau JBV 10:00",
+  "start" : "2026-11-22"
+}, {
+  "title" : "U18W Auswärts vs UNIONvolleys Bisamberg Hollabrunn 1 10:00",
+  "start" : "2026-11-22"
+}, {
+  "title" : "U18W Heim vs Bad Vöslau JBV 10:00",
+  "start" : "2026-12-20"
+}, {
+  "title" : "U18W Heim vs Wr. Neustadt 2 10:00",
+  "start" : "2026-12-20"
+}, {
+  "title" : "U18W Heim vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2026-12-20"
+}, {
+  "title" : "U18W Heim vs UVC Tulln 10:00",
+  "start" : "2026-12-20"
+}, {
+  "title" : "U18W Auswärts vs UNIONvolleys Bisamberg Hollabrunn LK2 10:00",
+  "start" : "2027-01-17"
+}, {
+  "title" : "U18W Heim vs Bad Vöslau JBV 10:00",
+  "start" : "2027-01-17"
+}, {
+  "title" : "U18W Heim vs Wr. Neustadt 3 10:00",
+  "start" : "2027-01-31"
+}, {
+  "title" : "U18W Auswärts vs Wr. Neustadt 3 10:00",
+  "start" : "2027-01-31"
+}, {
+  "title" : "U18W Heim vs Südstadt 2 10:00",
+  "start" : "2027-01-31"
+}, {
+  "title" : "U18W Auswärts vs Wr. Neustadt 2 10:00",
+  "start" : "2027-02-07"
+}, {
+  "title" : "U18W Auswärts vs UNIONvolleys Bisamberg Hollabrunn LK2 10:00",
+  "start" : "2027-02-07"
+}, {
+  "title" : "U18W Heim vs Wr. Neustadt 1 10:00",
+  "start" : "2027-02-28"
+}, {
+  "title" : "U18W Auswärts vs UNIONvolleys Bisamberg Hollabrunn 1 10:00",
+  "start" : "2027-02-28"
+}, {
+  "title" : "U18W Auswärts vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2027-03-07"
+}, {
+  "title" : "U18W Heim vs Wr. Neustadt 1 10:00",
+  "start" : "2027-03-07"
+}, {
+  "title" : "U16W Heim vs UNIONvolleys Bisamberg Hollabrunn 1 10:00",
+  "start" : "2026-10-11"
+}, {
+  "title" : "U16W Auswärts vs Wr. Neustadt 1 10:00",
+  "start" : "2026-10-11"
+}, {
+  "title" : "U16W Auswärts vs Ybbs 10:00",
+  "start" : "2026-11-01"
+}, {
+  "title" : "U16W Auswärts vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2026-11-01"
+}, {
+  "title" : "U16W Heim vs VOLLEYCATS Traiskirchen 10:00",
+  "start" : "2026-11-08"
+}, {
+  "title" : "U16W Heim vs Ybbs 10:00",
+  "start" : "2026-11-08"
+}, {
+  "title" : "U16W Heim vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2026-11-29"
+}, {
+  "title" : "U16W Heim vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2026-11-29"
+}, {
+  "title" : "U16W Heim vs ASKÖ Volksbank Purgstall 10:00",
+  "start" : "2026-12-13"
+}, {
+  "title" : "U16W Heim vs SG Purkersdorf/Tulln 10:00",
+  "start" : "2026-12-13"
+}, {
+  "title" : "U16W Auswärts vs SPORTUNION z+p St. Pölten 10:00",
+  "start" : "2027-01-10"
+}, {
+  "title" : "U16W Heim vs Wr. Neustadt 1 10:00",
+  "start" : "2027-01-10"
+}, {
+  "title" : "U16W Auswärts vs UNIONvolleys Bisamberg Hollabrunn 1 10:00",
+  "start" : "2027-02-14"
+}, {
+  "title" : "U16W Heim vs URW Raiffeisen Waldviertel 10:00",
+  "start" : "2027-02-14"
+}, {
+  "title" : "U16W Auswärts vs ASKÖ Volksbank Purgstall 10:00",
+  "start" : "2027-03-14"
+}, {
+  "title" : "U16W Heim vs VOLLEYCATS Traiskirchen 10:00",
+  "start" : "2027-03-14"
 } ]
