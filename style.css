@@ -1,47 +1,24 @@
 /* ==========================================================================
    Month View Calendar — Theme Tokens
-   Edit the variables below to re-skin the component.
    ========================================================================== */
 
 :root {
-  /* --- Core layout tokens (as requested) --- */
-  --calendar-bg: #ffffff;
+  --calendar-bg:  #ffffff;
   --border-color: #e2e5e9;
-  --text-color: #25282b;
-  --header-bg: #fafbfc;
-  --today-bg: #eaf3fe;
+  --text-color:   #25282b;
+  --header-bg:    #fafbfc;
+  --today-bg:     #eaf3fe;
 
-  /* --- Supporting tokens --- */
-  --accent-color: #0a6ed1;       /* SAP-style primary blue */
-  --muted-text: #6a6d70;
-  --outside-bg: #fbfbfc;
-  --outside-text: #b3b6ba;
+  --accent-color:  #0a6ed1;
+  --muted-text:    #6a6d70;
+  --outside-bg:    #fbfbfc;
+  --outside-text:  #c0c3c7;
 
-  /* --- Appointment badge themes --- */
-  --match-home-bg: #e3f5e9;
-  --match-home-border: #1f8a4c;
-  --match-home-text: #1c5c34;
-
-  --match-away-bg: #fdf3da;
-  --match-away-border: #d99c1b;
-  --match-away-text: #7a5b0a;
-
-  --badge-default-bg: #f1edfb;
-  --badge-default-border: #7b5fc4;
-  --badge-default-text: #4a3b82;
-
-  /* --- Type --- */
   --font-family: 'Inter', '72', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
 
 body {
   font-family: var(--font-family);
@@ -100,18 +77,10 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.12s ease, border-color 0.12s ease;
+  transition: background 0.12s, border-color 0.12s;
 }
-
-.nav-btn:hover {
-  background: var(--today-bg);
-  border-color: var(--accent-color);
-}
-
-.nav-btn:focus-visible {
-  outline: 2px solid var(--accent-color);
-  outline-offset: 1px;
-}
+.nav-btn:hover { background: var(--today-bg); border-color: var(--accent-color); }
+.nav-btn:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 1px; }
 
 .nav-btn--text {
   padding: 6px 14px;
@@ -171,17 +140,9 @@ body {
   overflow: hidden;
 }
 
-.day-cell.outside {
-  background: var(--outside-bg);
-}
-
-.day-cell.outside .day-number {
-  color: var(--outside-text);
-}
-
-.day-cell.today {
-  background: var(--today-bg);
-}
+.day-cell.outside  { background: var(--outside-bg); }
+.day-cell.outside .day-number { color: var(--outside-text); }
+.day-cell.today    { background: var(--today-bg); }
 
 .day-number {
   align-self: flex-end;
@@ -212,7 +173,8 @@ body {
 }
 
 /* ==========================================================================
-   Appointment badges — SAP UI5 style: light fill + thick left accent border
+   Appointment badge
+   Badge color is driven entirely by CSS custom properties set inline by JS.
    ========================================================================== */
 
 .appointment-badge {
@@ -221,8 +183,8 @@ body {
   display: block;
   width: 100%;
   cursor: pointer;
-  background: var(--badge-bg, #eef0f2);
-  border-left: 3px solid var(--badge-border, #888888);
+  background:   var(--badge-bg,     #eef0f2);
+  border-left:  3px solid var(--badge-border, #888888);
   border-radius: 0 3px 3px 0;
   padding: 2px 6px;
   font-size: 11.5px;
@@ -231,34 +193,10 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: filter 0.1s;
 }
-
-.appointment-badge:hover {
-  filter: brightness(0.96);
-}
-
-.appointment-badge:focus-visible {
-  outline: 2px solid var(--accent-color);
-  outline-offset: 1px;
-}
-
-.match-home {
-  --badge-bg: var(--match-home-bg);
-  --badge-border: var(--match-home-border);
-  --badge-text: var(--match-home-text);
-}
-
-.match-away {
-  --badge-bg: var(--match-away-bg);
-  --badge-border: var(--match-away-border);
-  --badge-text: var(--match-away-text);
-}
-
-.badge-default {
-  --badge-bg: var(--badge-default-bg);
-  --badge-border: var(--badge-default-border);
-  --badge-text: var(--badge-default-text);
-}
+.appointment-badge:hover        { filter: brightness(0.95); }
+.appointment-badge:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 1px; }
 
 .more-link {
   all: unset;
@@ -269,18 +207,11 @@ body {
   padding: 1px 6px;
   margin-top: 1px;
 }
-
-.more-link:hover {
-  text-decoration: underline;
-}
-
-.more-link:focus-visible {
-  outline: 2px solid var(--accent-color);
-  outline-offset: 1px;
-}
+.more-link:hover { text-decoration: underline; }
+.more-link:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 1px; }
 
 /* ==========================================================================
-   Modal / Popover
+   Modal
    ========================================================================== */
 
 .modal-overlay {
@@ -293,74 +224,32 @@ body {
   padding: 16px;
   z-index: 1000;
 }
-
-.modal-overlay[hidden] {
-  display: none;
-}
+.modal-overlay[hidden] { display: none; }
 
 .modal-box {
-  width: 320px;
+  width: 360px;
   max-width: 100%;
-  max-height: 80vh;
+  max-height: 85vh;
   overflow-y: auto;
   background: var(--calendar-bg);
-  border-radius: 8px;
-  padding: 20px 22px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
-}
-
-.modal-title {
-  margin: 0 0 6px;
-  font-size: 16px;
-  font-weight: 700;
-  padding-right: 8px;
-}
-
-.modal-meta {
-  font-size: 12.5px;
-  color: var(--muted-text);
-  margin: 0 0 18px;
-}
-
-.modal-meta-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.modal-badge-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--badge-border, var(--accent-color));
-  display: inline-block;
-}
-
-.modal-actions {
+  border-radius: 10px;
+  box-shadow: 0 20px 48px rgba(0,0,0,0.24);
+  overflow: hidden; /* clip the color bar to rounded corners */
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
 }
 
-.modal-close-btn {
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 7px 16px;
-  border-radius: 4px;
-  border: 1px solid var(--border-color);
-  background: var(--header-bg);
-  color: var(--text-color);
-  cursor: pointer;
+/* Coloured top bar derived from the appointment's border colour */
+.modal-color-bar {
+  height: 5px;
+  flex-shrink: 0;
 }
 
-.modal-close-btn:hover {
-  background: var(--today-bg);
-  border-color: var(--accent-color);
-}
-
-.modal-close-btn:focus-visible {
-  outline: 2px solid var(--accent-color);
-  outline-offset: 1px;
+.modal-inner {
+  position: relative;
+  padding: 20px 22px 20px;
+  overflow-y: auto;
+  max-height: calc(85vh - 5px);
 }
 
 .modal-close-x {
@@ -369,24 +258,88 @@ body {
   top: 14px;
   right: 14px;
   cursor: pointer;
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  color: var(--muted-text);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1;
+  color: var(--muted-text);
+}
+.modal-close-x:hover { background: var(--today-bg); color: var(--text-color); }
+.modal-close-x:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 1px; }
+
+/* Small chip showing the color/category name */
+.modal-badge-chip {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 2px 8px;
+  border-radius: 0 3px 3px 0;
+  margin-bottom: 10px;
 }
 
-.modal-close-x:hover {
-  background: var(--today-bg);
+.modal-title {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  padding-right: 22px; /* avoid overlap with × */
+}
+
+/* Detail rows: icon + label/value stack */
+.modal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.modal-detail-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: var(--header-bg);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted-text);
+  margin-top: 1px;
+}
+
+.modal-detail-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted-text);
+  margin-bottom: 1px;
+}
+
+.modal-detail-value {
+  font-size: 13.5px;
+  font-weight: 500;
   color: var(--text-color);
+  line-height: 1.4;
 }
 
-.modal-box {
-  position: relative;
+/* day-list overflow modal */
+.modal-meta {
+  font-size: 12.5px;
+  color: var(--muted-text);
+  margin: 0 0 14px;
 }
 
 .day-list {
@@ -397,30 +350,35 @@ body {
 
 .day-list .appointment-badge {
   font-size: 12.5px;
-  padding: 6px 8px;
+  padding: 7px 10px;
   white-space: normal;
+  border-radius: 0 5px 5px 0;
 }
 
+.modal-actions { display: flex; justify-content: flex-end; }
+
+.modal-close-btn {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 18px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background: var(--header-bg);
+  color: var(--text-color);
+  cursor: pointer;
+}
+.modal-close-btn:hover { background: var(--today-bg); border-color: var(--accent-color); }
+.modal-close-btn:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 1px; }
+
 /* ==========================================================================
-   Responsive adjustments for narrow iframes
+   Narrow iframe / mobile
    ========================================================================== */
 
 @media (max-width: 520px) {
-  .calendar-toolbar {
-    padding: 10px 12px;
-  }
-  .calendar-month-label {
-    font-size: 15px;
-  }
-  .weekday-row div {
-    font-size: 9.5px;
-    padding: 6px 2px;
-  }
-  .day-cell {
-    padding: 4px 3px;
-  }
-  .appointment-badge,
-  .more-link {
-    font-size: 10px;
-  }
+  .calendar-toolbar { padding: 10px 12px; }
+  .calendar-month-label { font-size: 15px; }
+  .weekday-row div { font-size: 9.5px; padding: 6px 2px; }
+  .day-cell { padding: 4px 3px; }
+  .appointment-badge, .more-link { font-size: 10px; }
 }

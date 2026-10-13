@@ -1,6 +1,8 @@
 [ {
   "title" : "H1 Heim vs Union Raiffeisen Waldviertel 19:00",
-  "start" : "2026-10-24"
+  "start" : "2026-10-24",
+    "place": "Stadion Wr. Neustadt",
+    "color": "sky"
 }, {
   "title" : "H1 Auswärts vs Volleyteam NÖ 19:30",
   "start" : "2026-11-11"
